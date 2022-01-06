@@ -65,18 +65,7 @@ class Batch{
     String name;
     int size;
     Student[] students;
-    Teacher teacher;
-
-    Batch() {
-        name = null;
-        size = 0;
-        students = null;
-        teacher = null;
-    }
-
-   
-      
-    }
+    Teacher teacher;  }
 
     public String getname() {
         return name;
