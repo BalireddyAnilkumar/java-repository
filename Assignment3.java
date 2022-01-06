@@ -1,34 +1,4 @@
-class Student {
-    String name;
-    int age;
-    String email;
-    String address;
 
-    public String getname() {
-        return name;
-    }
-    public void setname(String name) {
-        this.name=name;
-    }
-    public int setage(){
-        return age;
-    }
-    public void getage(int age){
-        this.age=age;
-    }
-    public String getemail(){
-        return email;
-    }
-    public void setemail(String email){
-        this.email=email;
-    }
-    public String getaddress(){
-        return address;
-    }
-    public void setaddress(String address){
-        this.address=address;
-    }
-}
 class Teacher{
     String name;
     int age;
@@ -59,6 +29,37 @@ class Teacher{
     public void setaddress(String address){
         this.address=address;
     }
+    class Student {
+    String name;
+    int age;
+    String email;
+    String address;
+
+    public String getname() {
+        return name;
+    }
+    public void setname(String name) {
+        this.name=name;
+    }
+    public int setage(){
+        return age;
+    }
+    public void getage(int age){
+        this.age=age;
+    }
+    public String getemail(){
+        return email;
+    }
+    public void setemail(String email){
+        this.email=email;
+    }
+    public String getaddress(){
+        return address;
+    }
+    public void setaddress(String address){
+        this.address=address;
+    }
+}
 }
 class Batch{
     String name;
@@ -73,17 +74,8 @@ class Batch{
         teacher = null;
     }
 
-    Batch(String name, int size, Student[] students, Teacher teacher) {
-        if(students.length < 3) {
-
-            System.out.println("batch should contains minimum 3 students");  
-
-        } else {
-            this.name = name;
-            this.size = size;
-            this.students = students;
-            this.teacher = teacher;
-        }   
+   
+      
     }
 
     public String getname() {
@@ -154,8 +146,7 @@ class EncapsulationDemo{
         System.out.println(t1.getemail());
         System.out.println(t1.getaddress());
 
-        Batch b1 = new Batch("batch1", 3, new Student[]{s1, s2}, t1);
-        System.out.println(b1.getname());
+       
 
         }
 }
