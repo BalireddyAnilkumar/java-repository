@@ -1,3 +1,5 @@
+import javax.swing.event.AncestorListener;
+
 class Student {
     String name;
     int age;
@@ -111,7 +113,7 @@ class Batch{
         this.teacher=t;
     }  
 }
-class EncapsulationDemo{
+class Assignment3{
 
     public static void main(String[] args){
         Student s1= new Student();

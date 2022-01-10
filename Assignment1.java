@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Assignment1 {
     public void add(int a, int b) {
         System.out.println(a + b);
+        
     }
 
     public void sub(int a, int b) {
@@ -23,9 +24,13 @@ public class Assignment1 {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
+
         Assignment1 ar = new Assignment1();
+
         int a = sc.nextInt();
         int b = sc.nextInt();
+
+
         ar.add(a, b);
         ar.sub(a, b);
         ar.mul(a, b);
