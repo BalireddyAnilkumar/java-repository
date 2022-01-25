@@ -28,7 +28,7 @@ public class BookDao {
         SELECT_ALL_BOOKS = "SELECT * FROM books";
 
         USER_NAME = "root";
-        PASSWORD = "password";
+        PASSWORD = "Password";
 
         // URL = "jdbc:mysql://server-name or server-ip-address:port/database-name";
         URL = "jdbc:mysql://localhost:3306/dxc";

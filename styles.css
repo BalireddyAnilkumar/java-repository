@@ -1,0 +1,7 @@
+#list> ul > li > a {
+    font-size:0vh;
+    background-color: rgb(125, 144, 238);
+    font-family:fantasy;
+    color: orangered;
+    display: inline-block;
+}
